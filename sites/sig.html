@@ -30,8 +30,31 @@
     <link href="../css/style.css" rel="stylesheet">
 
     <style>
-        .content{
-            margin: 0 15%;
+          .sig-content{
+            padding: 30px 10px;
+            font-size: 22px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 700px){
+            .sig-content{
+                margin: 0;
+                padding-left: 10px;
+                font-size: 16px;
+                justify-content: left;
+                text-align: left;
+            }
+        }
+
+        .certificados-title{
+            margin-top: 50px;
+            
+        }
+
+        .title{
+            margin-left: 30px;
         }
     </style>
 </head>
@@ -92,41 +115,41 @@
     <!-- Hero End -->
 
     <!-- Content-->
-    <div class="container-fluid p-5">
+    <div class="container-fluid ">
         <div class="mb-5 text-center">
             <h5 class="text-primary text-uppercase">Sistema integradod de gestión</h5>
             <h1 class="display-3 text-uppercase mb-0">SIG</h1>
         </div>
 
         
-            <div class="rounded bg-dark ml-5 mr-5 p-5 mb-5 text-justify content" >
+            <div class=" rounded bg-dark  content" >
            
-                <p class="text-secondary mb-5">
+                <p class="text-secondary sig-content">
                         Grupo GTA es una empresa dedicada a la construcción, montaje, reparación y mantenimiento de obras de ingeniería eléctrica
                      y obras civiles. Asumimos con responsabilidad, calidad y experiencia cada uno de los servicios que desarrollamos, nos comprometemos
                       a fortalecer la confianza y la satisfacción de las expectativas de nuestras partes interesadas.
                 </p>
                 
-                <p class="text-secondary mb-5">
+                <p class="text-secondary sig-content">
                     Trabajamos cada día para garantizar la integridad física y la salud mental de nuestros colaboradores independiente del tipo de vinculación,
                      generando condiciones seguras y saludables, permitiendo así mismo la participación, consulta y la calidad de vida laboral, previniendo no 
                      solo los accidentes y las enfermedades laborales, sino los daños a la propiedad privada mediante la gestión adecuada de los riesgos y 
                      peligros, con alcance a todos nuestros centros de trabajo; a través del Sistema de Gestión de Seguridad y Salud en el Trabajo.
                 </p>
 
-                <p class="text-secondary mb-5">
+                <p class="text-secondary sig-content">
                     Declaramos nuestro interés por la conservación y protección del Medio Ambiente con procesos de innovación y buenas prácticas, que permiten 
                     identificar, prevenir, mitigar, controlar y compensar los impactos ambientales, en sus componentes físico, biótico y sociocultural, generados
                     por las actividades ejecutadas en la empresa, por medio del Sistema de Gestión Ambiental.
                 </p>
 
-                <p class="text-secondary mb-5">
+                <p class="text-secondary sig-content">
                     Promovemos la gestión eficiente y razonable de los recursos en beneficio de la sostenibilidad corporativa, impulsando el mejoramiento continuo,
                     el desarrollo de las competencias y habilidades de nuestros colaboradores, acreditando un personal idóneo, que nos permite dar cumplimiento a
                     estándares técnicos, normativos y legales.
                 </p>
 
-                <p class="text-secondary mb-5">
+                <p class="text-secondary sig-content">
                     Actuamos en todo momento con transparencia, basados en la integridad y ética profesional, concediendo a cada colaborador su participación en 
                     la toma de decisiones dentro de su nivel de responsabilidad, para conseguir la mejora continua y orientados hacia la calidad en la prestación 
                     del servicio, lo que nos convierte en una organización competente, sostenible y reconocida en el sector.
@@ -134,8 +157,8 @@
             </div>
 
             <div class="">
-                <h2 class="">Conoce Nuestros certificados</h2>
-                <h5 class="text-primary text-uppercase">Documentos descargables</h5>
+                <h2 class="certificados-title title">Conoce Nuestros certificados</h2>
+                <h5 class="text-primary text-uppercase title">Documentos descargables</h5>
                 <div class="container">
                     <div class="row">
                         <a class=" col text-center" href="../img/downloads//Certificado-ISO-9001.pdf" download><img src="../img/iconos/9001.png" /></a>
@@ -204,7 +227,7 @@
                        
                         
                         <div class="d-flex mt-4">
-                            <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a>
+                           
                             <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
                             <a class="btn btn-primary btn-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
