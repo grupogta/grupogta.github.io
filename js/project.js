@@ -1,20 +1,20 @@
 
 
 let projectPeru = [
-  ["En Ejecución", "Reparación de cimentación tipo pila T231N-VH","YANA-COYA", "ISA Perú", "2022", "./img/projects/1.jpg" ],
-  ["Finalizado", "Construcción líneas de transmisión 500kV","YANA-COYA", " ISA Perú", "2020", "./img/projects/1.jpg" ], 
-  ["Finalizado", "Construcción líneas de transmisión 220kV","FRIASPATA-MOLLEPATA Y SUB", " ISA Perú", "2018", "./img/projects/1.jpg" ], 
-  ["Finalizado", "Construcción líneas de transmisión 220kV","FRIASPATA-MOLLEPATA Y SUB", " ISA Perú", "2017", "./img/projects/1.jpg" ], 
-  ["Finalizado", "Construcción de torres eléctricas","MANTARO-MONTALVO", " ISA Perú", " 2018", "./img/projects/1.jpg" ],
-  ["Finalizado", "Construcción de torres eléctricas- variante 69kV","MANTARO-MONTALVO", " ISA Perú", "2016", "./img/projects/1.jpg" ],
-  ["Finalizado", "Construcción de torres eléctricas","MANTARO-MONTALVO", " ISA Perú", "2017", "./img/projects/1.jpg" ],
-  ["Finalizado", "Construcción líneas de transmisión 138kV TOAR","MARICOTA-TOQUEPALA", " ISA Perú", "2017", "./img/projects/1.jpg" ],
-  ["Finalizado", "Cambio de retenidas de la linea L-6627 Y L-6628", "MARCONA- SAN NICOLAS", " REP", "2017", "./img/projects/1.jpg" ],
-  ["Finalizado", "Construcción de lineas de transmisión 220kV", "MACHUPICCHU-ABANCAY-COTARUSE", " ISA", "2016", "./img/projects/1.jpg" ],
-  ["Finalizado", "Instalación separadores de lineas de transmisión", "HIDROELECTRICA CHAGLIA-MANNTTO", "GRUPO UNIÓN", "2015", "./img/projects/1.jpg" ],
-  ["Finalizado", "Construcción líneas de transmisión para tendido de fibra optica -500 Kv", "TRUJILLO-CHICLAYO", "EDEMSA-PERÚ", "2014", "./img/projects/1.jpg" ],
-  ["Finalizado", "Ejecución obra civil LT Trujillo-Chiclayo 500kV", "TRUJILLO-CHICLAYO", "EDEMSA-PERÚ", "2014", "./img/projects/1.jpg" ],
-  ["Finalizado", "Tendido de fibra optica S.E Pariñas y LT L2248 a 220kV", "TALARA-PIURA", "CYFO-PERÚ", "2014", "./img/projects/1.jpg" ],
+  ["En Ejecución", "Reparación de cimentación tipo pila T231N-VH","YANA-COYA", "ISA Perú", "2022", "../img/projects/1.jpg" ],
+  ["Finalizado", "Construcción líneas de transmisión 500kV","YANA-COYA", " ISA Perú", "2020", "../img/projects/1.jpg" ], 
+  ["Finalizado", "Construcción líneas de transmisión 220kV","FRIASPATA-MOLLEPATA Y SUB", " ISA Perú", "2018", "../img/projects/1.jpg" ], 
+  ["Finalizado", "Construcción líneas de transmisión 220kV","FRIASPATA-MOLLEPATA Y SUB", " ISA Perú", "2017", "../img/projects/1.jpg" ], 
+  ["Finalizado", "Construcción de torres eléctricas","MANTARO-MONTALVO", " ISA Perú", " 2018", "../img/projects/1.jpg" ],
+  ["Finalizado", "Construcción de torres eléctricas- variante 69kV","MANTARO-MONTALVO", " ISA Perú", "2016", "../img/projects/1.jpg" ],
+  ["Finalizado", "Construcción de torres eléctricas","MANTARO-MONTALVO", " ISA Perú", "2017", "../img/projects/1.jpg" ],
+  ["Finalizado", "Construcción líneas de transmisión 138kV TOAR","MARICOTA-TOQUEPALA", " ISA Perú", "2017", "../img/projects/1.jpg" ],
+  ["Finalizado", "Cambio de retenidas de la linea L-6627 Y L-6628", "MARCONA- SAN NICOLAS", " REP", "2017", "../img/projects/1.jpg" ],
+  ["Finalizado", "Construcción de lineas de transmisión 220kV", "MACHUPICCHU-ABANCAY-COTARUSE", " ISA", "2016", "../img/projects/1.jpg" ],
+  ["Finalizado", "Instalación separadores de lineas de transmisión", "HIDROELECTRICA CHAGLIA-MANNTTO", "GRUPO UNIÓN", "2015", "../img/projects/1.jpg" ],
+  ["Finalizado", "Construcción líneas de transmisión para tendido de fibra optica -500 Kv", "TRUJILLO-CHICLAYO", "EDEMSA-PERÚ", "2014", "../img/projects/1.jpg" ],
+  ["Finalizado", "Ejecución obra civil LT Trujillo-Chiclayo 500kV", "TRUJILLO-CHICLAYO", "EDEMSA-PERÚ", "2014", "../img/projects/1.jpg" ],
+  ["Finalizado", "Tendido de fibra optica S.E Pariñas y LT L2248 a 220kV", "TALARA-PIURA", "CYFO-PERÚ", "2014", "../img/projects/1.jpg" ],
 ];
 
 addProjects()
