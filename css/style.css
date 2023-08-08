@@ -143,6 +143,10 @@ h6,
     background: var(--dark);
     z-index: -1;
 }
+.team-img{
+    aspect-ratio: 1/2;
+    object-fit: cover;
+}
 
 .team-item img {
     transition: .5s;
@@ -214,6 +218,10 @@ h6,
     transform: scale(1.2);
 }
 
+.icon-footer{
+    color:  #FB5B21; 
+ }
+ 
 @media (min-width: 991.98px) {
     .credit {
         background: var(--primary);
@@ -227,4 +235,28 @@ h6,
     margin: 0 auto ;
     justify-content: center;
     text-align: center;
+}
+
+.btn-socialnetwork{
+    border-color: #FB5B21;
+}
+
+@media (max-width: 1000px) 
+{
+    #container__country{
+        display: none;
+    }   
+
+    #nav-countries{
+        display: block;
+    }
+
+    
+}
+
+@media (min-width:1000px)
+{
+    #nav-countries{
+        display: none;
+    }
 }

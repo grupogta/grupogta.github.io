@@ -28,16 +28,47 @@
 
     <!-- Template Stylesheet -->
     <link href="../css/style.css" rel="stylesheet">
+    <style>
+        .diagonal-border{
+            border: none ; 
+            border-width: 10px 4px;
+            border-radius: 10px 0px 10px 43px ;
+        }
+
+        .nav-item__country:hover{
+            background-color:  #FB5B21;
+            color:aliceblue !important;
+            border: none ;
+            padding-right: 5px;
+            padding-left: 15px; 
+            border-width: 10px 4px;
+            border-radius: 10px 0px 10px 43px ;
+        }
+        .img-vision{
+            max-height: 600px;
+            min-width: 500px;
+            aspect-ratio: auto ;
+        }
+    </style>
 </head>
 
 <body>
     <!-- Header Start -->
-       <!-- Header Start -->
-       <div class="container-fluid bg-dark px-0">
+    
+    <div class="navbar  navbar-light bg-light p-0  justify-content-end float-end border-start diagonal-border" id="container__country">
+        <ul class="navbar-nav d-flex flex-row  ps-4 pe-3 ">
+            <li class="nav-item pe-2  "><a class="nav-link nav-item__country "  href="../sites/colombia.html">GTA COL</a></li> <!-- Colombia-->
+            <li class="nav-item pe-2 "><a class="nav-link nav-item__country " href="../sites/peru.html"> GTA PERÚ</a></li> <!-- Perú  -->
+            <li class="nav-item pe-2 "><a class="nav-link nav-item__country" href="../sites/chile.html">GTA CHILE</a></li> <!-- Chile -->
+        </ul>
+    </div>
+   
+
+    <div class="container-fluid bg-dark px-0">
         <div class="row gx-0">
-            <div class="col-lg-3 bg-dark d-none d-lg-block">
+            <div class="col-lg-3 bg-dark d-none d-lg-block ">
                 <a href="../index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                    <h1 class="m-0 display-4 text-primary text-uppercase">GRUPO GTA</h1>
+                    <h1 class="m-0 display-5 text-primary text-uppercase">GRUPO GTA</h1>
                 </a>
             </div>
             <div class="col-lg-9">
@@ -50,20 +81,22 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="../index.html" class="nav-item nav-link active">grupo gta</a>
-                            <a href="./aboutus.html" class="nav-item nav-link">Somos Grupo GTA</a>
-                            <a href="./sustainability.html" class="nav-item nav-link">Sostenibilidad</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sedes</a>
+                            <a href="../index.html" class="nav-item nav-link active">Grupo GTA</a>
+                            <a href="../sites/aboutus.html" class="nav-item nav-link"> Quienes somos</a>
+                            <a href="../sites/services.html" class="nav-item nav-link">Servicios</a>
+                            <div class="nav-item dropdown" id="nav-countries">
+
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Empresas en latinoamerica</a>
                                 <div class="dropdown-menu rounded-0 m-0">
-                                    <a href="./colombia.html" class="dropdown-item">GTA Colombia</a>
-                                    <a href="./chile.html" class="dropdown-item">GTA Chile</a>
-                                    <a href="./peru.html" class="dropdown-item">GTA Perú</a>
+                                    <a href="../sites/colombia.html" class="dropdown-item">GTA Colombia</a>
+                                    <a href="../sites/chile.html" class="dropdown-item">GTA Chile</a>
+                                    <a href="../sites/peru.html" class="dropdown-item">GTA Perú</a>
                                 </div>
                             </div>
-                            <a href="./contact.html" class="nav-item nav-link">Contacto</a>
+                            <a href="../sites/sustainability.html" class="nav-item nav-link">Sostenibilidad</a>
+                            <a href="../sites/projectsGrupoGTA.html" class="nav-item nav-link">Proyectos</a>
                         </div>
-                        <a href="./workwithus.html" class="btn btn-primary py-md-3 px-md-5 d-none d-lg-block">TRABAJA CON NOSOTROS</a>
+                       
                     </div>
                 </nav>
             </div>
@@ -119,7 +152,7 @@
                     <h2 class="text-uppercase text-dark mb-4">Visión</h2>
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 ">
-                            <img class="img-fluid " src="../img/background/joshua-earle-600-Unsplash.jpg" alt="vision of gta by Joshua Earle">
+                            <img class="img-fluid img-vision" src="../img/background/vision.jpg" alt="vision of gta ">
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 pt-5">
                             <p class="   fs-5 ">Construir 1,500 Km de líneas de transmisión eléctrica 
@@ -139,16 +172,15 @@
                     <h2 class="text-uppercase text-dark mb-4">Misión</h2>
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 pt-5">
-                            <p class=" fs-5 ">Desarrollamos con pasión y responsabilidad Socioambiental, 
-                            infraestructura y operaciones energéticas en Latinoamérica,
-                            con equipos de trabajo altamente comprometidos y 
-                            calificados en la ejecución de proyectos que transforman los
-                            territorios donde operamos y crear valor para los grupos de
-                            interés.
+                            <p class=" fs-5 ">Desarrollamos la infraestructura energética en Latinoamérica, 
+                                ejecutando con pasión y responsabilidad ambiental proyectos de ingeniería, 
+                                desde su diseño hasta su comercialización, con equipos de trabajo altamente comrpometidos
+                                y calificados, para transformar los territorios donde operamos y crear valor para los grupos de
+                                interés.
                             </p>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 ">
-                            <img class=" img-fluid " src="../img/background/larm-rmah-600-unsplash.jpg" alt="Mision of GTA by Larm Rmah">
+                            <img class=" img-fluid " src="../img/background/mision.jpg" alt="Mision of GTA ">
                         </div>
                     </div>
                 </div>
@@ -157,7 +189,7 @@
         <div class="aboutus-pruporse">
             <div class="aboutus-pruporse__img"  >
             <div class="aboutus__content aboutus-pruporse__content card">
-                <img class="w-100 img-fluid card-img " src="../img/background/jukan-tateisi-600-unsplash.jpg" alt="Mision of GTA by Larm Rmah">
+                <img class="w-100 img-fluid card-img " src="../img/background/proposito.jpg" alt="Mision of GTA ">
                    <div class="card-img-overlay">
                         <h2 class="text-uppercase text-white-50 h-75 mb-4  d-flex justify-content-center flex-column text-center">Nuestro Propósito</h2>
                         <p class="text-white-50 ps-5  fs-4">Aceptamos retos que transforman vidas.</p>
@@ -236,9 +268,11 @@
                             <a class="text-secondary mb-2" href="https://www.kawak.com.co/gtaingenieria/pqrs/pqrs_index.php" target="_blank"><i class="bi bi-arrow-right text-primary me-2"></i>PQRS</a>
                             <a class="text-secondary" href="#"></a>
                             <a class="mb-2 text-secondary"><i class="bi bi-arrow-right text-primary me-2"></i>Línea Etíca:</a>
-                            <a href="tel:3507262062" class="phone text-secondary mb-2"><i class="fas fa-phone"></i>  (+ 57) 350 726 2062</a></li> 
+                            <a href="tel:3507262062" class="phone text-secondary mb-2"><i class="fas fa-phone icon-footer"></i>  (+ 57) 350 726 2062</a></li> 
                             <a href="mailto: lineaetica@gtaingenieria.com" class="phone text-secondary mb-2">lineaetica@gtaingenieria.com</a></li> 
-                            
+                            <br/>
+                            <a href="mailto: coordinadorcomercial@gtaingenieria.com" ><h5 class="text-light"><i class="bi bi-envelope icon-footer"></i>&nbsp;&nbsp;  Área Comercial</h5></a>
+                       
                         </div>
                     </div>
                 </div>

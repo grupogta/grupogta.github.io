@@ -27,40 +27,73 @@
 
     <!-- Template Stylesheet -->
     <link href="../css/style.css" rel="stylesheet">
+    <style>
+       
+
+        .diagonal-border{
+            border: none ; 
+            border-width: 10px 4px;
+            border-radius: 10px 0px 10px 43px ;
+        }
+
+        .nav-item__country:hover{
+            background-color:  #FB5B21;
+            color:aliceblue !important;
+            border: none ;
+            padding-right: 5px;
+            padding-left: 15px; 
+            border-width: 10px 4px;
+            border-radius: 10px 0px 10px 43px ;
+        }
+
+    </style>
 </head>
 
 <body>
     <!-- Header Start -->
+    
+    <div class="navbar  navbar-light bg-light p-0  justify-content-end float-end border-start diagonal-border" id="container__country">
+        <ul class="navbar-nav d-flex flex-row  ps-4 pe-3 ">
+            <li class="nav-item pe-2  "><a class="nav-link nav-item__country "  href="../sites/colombia.html">GTA COL</a></li> <!-- Colombia-->
+            <li class="nav-item pe-2 "><a class="nav-link nav-item__country " href="../sites/peru.html"> GTA PERÚ</a></li> <!-- Perú  -->
+            <li class="nav-item pe-2 "><a class="nav-link nav-item__country" href="../sites/chile.html">GTA CHILE</a></li> <!-- Chile -->
+        </ul>
+    </div>
+   
+
     <div class="container-fluid bg-dark px-0">
         <div class="row gx-0">
-            <div class="col-lg-3 bg-dark d-none d-lg-block">
-                <a href="../index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                    <h1 class="m-0 display-4 text-primary text-uppercase">GTA Chile</h1>
+            <div class="col-lg-3 bg-dark d-none d-lg-block ">
+                <a href="../sites/chile.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                    <h1 class="m-0 display-5 text-primary text-uppercase">GTA CHILE</h1>
                 </a>
             </div>
             <div class="col-lg-9">
                 <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0 px-lg-5">
                     <a href="../index.html" class="navbar-brand d-block d-lg-none">
-                        <h1 class="m-0 display-4 text-primary text-uppercase">GTA Chile</h1>
+                        <h1 class="m-0 display-4 text-primary text-uppercase">GTA CHILE</h1>
                     </a>
                     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="../index.html" class="nav-item nav-link active">grupo gta</a>
-                            <a href="./aboutus.html" class="nav-item nav-link">Somos grupo GTA</a>
-                            <a href="./sustainability.html" class="nav-item nav-link">Sostenibilidad</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sedes</a>
+                            <a href="../index.html" class="nav-item nav-link active">Grupo GTA</a>
+                            <a href="../sites/aboutus.html" class="nav-item nav-link"> Quienes somos</a>
+                            <a href="../sites/services.html" class="nav-item nav-link">Servicios</a>
+                            <div class="nav-item dropdown"  id="nav-countries">
+
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Empresas en latinoamerica</a>
                                 <div class="dropdown-menu rounded-0 m-0">
-                                    <a href="./colombia.html" class="dropdown-item">GTA Colombia</a>
-                                    <a href="./peru.html" class="dropdown-item">GTA Perú</a>
+                                    <a href="../sites/colombia.html" class="dropdown-item">GTA Colombia</a>
+                                    <a href="../sites/chile.html" class="dropdown-item">GTA Chile</a>
+                                    <a href="../sites/peru.html" class="dropdown-item">GTA Perú</a>
                                 </div>
                             </div>
-                            <a href="./contact.html" class="nav-item nav-link">Contacto</a>
+                            <a href="../sites/sustainability.html" class="nav-item nav-link">Sostenibilidad</a>
+                            <a href="../sites/projectsGrupoGTA.html" class="nav-item nav-link">Proyectos</a>
                         </div>
-                        <a href="./workwithus.html" class="btn btn-primary py-md-3 px-md-5 d-none d-lg-block">Trabaja con nosotros</a>
+                       
                     </div>
                 </nav>
             </div>
@@ -203,11 +236,76 @@
             <h5 class="text-primary text-uppercase"></h5>
             <h1 class="display-3 text-uppercase mb-0">Proyectos</h1>
         </div>
-        <div class="tab-class text-center">
+        <div class="container d-flex flex-wrap justify-content-center">
           
-            <div class="map" style="height: 600px;">
+              <!-- #1 -->
+              <div class="card m-2" style="width: 18rem">
+                <div class="card-head">
+                    <img style="width: 18rem;height: 275px;" src="../img/projects/1.jpg" class="card-img-top img-fluid" >
+                    
+                <h6 class="subtitle-pojects  m-0 p-2  text-white" style="background-color:#FB5B21 ">&nbsp&nbsp En Ejecución</h6>   
+                </div>
+                <div class="card-body bg-dark text-white">
+                    
+                    <h6 class="card-title text-white">Construcción tramos 1 y 2 LT CL-KILO 600VK </h6>
+                    <h6 class="card-title text-white" style=" font-size:14px;">Nueva Linea HVDC KIMAL - lo Aguirre</h6>
+                    <span class="text-white-50" style=" font-size:14px;">Entidad Contratante: </span><span class="text-white-50" style=" font-size:14px;">ISA Chile</span>
+                    <br>
+                    <p class="card-text " style=" font-size:14px;">Inicio: -</p>
+                </div>
+                </div>
                 
-            </div>
+                <!-- #2 -->
+                <div class="card m-2" style="width: 18rem">
+                    <div class="card-head">
+                        <img style="width: 18rem;height: 275px;" src="../img/projects/4.jpg" class="card-img-top img-fluid" >
+                        
+                        <h6 class="subtitle-pojects  m-0 p-2  text-white" style="background-color:#FB5B21 ">&nbsp&nbsp Finalizado</h6>   
+                    </div>
+                    <div class="card-body bg-dark text-white">
+                        
+                        <h6 class="card-title text-white">Construcción Linea de transmisión 2 x 500 kV </h6>
+                        <h6 class="card-title text-white" style=" font-size:14px;">Lineas Nueva Lagunas- KIMAL</h6>
+                        <span class="text-white-50" style=" font-size:14px;">Entidad Contratante: </span><span class="text-white-50" style=" font-size:14px;">ISA Chile</span>
+                        <br>
+                        <p class="card-text " style=" font-size:14px;">Inicio: -</p>
+                    </div>
+                </div>
+    
+                <!-- #3 -->
+                <div class="card m-2" style="width: 18rem">
+                    <div class="card-head">
+                        <img style="width: 18rem;height: 275px;" src="../img/projects/5.jpg" class="card-img-top img-fluid" >
+                        
+                        <h6 class="subtitle-pojects  m-0 p-2  text-white" style="background-color:#FB5B21 ">&nbsp&nbsp En Ejecución</h6>   
+                    </div>
+                    <div class="card-body bg-dark text-white">
+                        
+                        <h6 class="card-title text-white">Diseños civiles + Logística de Construcción 220KV </h6>
+                        <h6 class="card-title text-white" style=" font-size:14px;">KV KIMAL</h6>
+                        <span class="text-white-50" style=" font-size:14px;">Entidad Contratante: </span><span class="text-white-50" style=" font-size:14px;">ISA Chile</span>
+                        <br>
+                        <p class="card-text " style=" font-size:14px;">Inicio: -</p>
+                    </div>
+                </div>
+    
+                <!-- #4 -->
+                <div class="card m-2" style="width: 18rem">
+                    <div class="card-head">
+                        <img style="width: 18rem;height: 275px;" src="../img/projects/5.jpg" class="card-img-top img-fluid" >
+                        
+                        <h6 class="subtitle-pojects  m-0 p-2  text-white" style="background-color:#FB5B21 ">&nbsp&nbsp En Ejecución</h6>   
+                    </div>
+                    <div class="card-body bg-dark text-white">
+                        
+                        <h6 class="card-title text-white"> Logística de Construcción 500KV</h6>
+                        <h6 class="card-title text-white" style=" font-size:14px;">KILA</h6>
+                        <span class="text-white-50" style=" font-size:14px;">Entidad Contratante: </span><span class="text-white-50" style=" font-size:14px;">ISA Chile</span>
+                        <br>
+                        <p class="card-text " style=" font-size:14px;">Inicio: -</p>
+                    </div>
+                </div>
+                <!------------------- END CHILE -------------------->
         </div>
     </div>
     <!-- Class Timetable Start -->
@@ -271,7 +369,7 @@
     <section class="certificates">
         <h5 class="text-primary text-uppercase text-center">Sistema integrado de gestión</h5>
         <h1 class="display-3 text-uppercase text-dark text-center mb-5">Certificaciones</h1>
-        <div class=" justify-content-center bg-dark p-5">
+        <div class="   bg-dark p-5">
             <div class="certificacion-chile">
                 <p class="text-secondary ">En GTA Chile cumplimos con todos los estándares del Grupo GTA y nos encontramos en proceso de certificación de las normas ISO.
                     Garantizamos la calidad y seguridad de nuestros productos y servicios,
@@ -421,7 +519,9 @@
                             <a class="mb-2 text-secondary"><i class="bi bi-arrow-right text-primary me-2"></i>Línea Etíca:</a>
                             <a href="tel:3507262062" class="phone text-secondary mb-2"><i class="fas fa-phone"></i>  (+ 57) 350 726 2062</a></li> 
                             <a href="mailto: lineaetica@gtaingenieria.com" class="phone text-secondary mb-2">lineaetica@gtaingenieria.com</a></li> 
-                            
+                            <br/>
+                            <a href="mailto: coordinadorcomercial@gtaingenieria.com" ><h5 class="text-light"><i class="bi bi-envelope"></i>&nbsp;&nbsp;  Área Comercial</h5></a>
+                       
                         </div>
                     </div>
                 </div>

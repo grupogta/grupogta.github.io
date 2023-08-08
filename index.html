@@ -27,20 +27,63 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+       
+        .diagonal-border{
+            border: none ; 
+            border-width: 10px 4px;
+            border-radius: 10px 0px 10px 43px ;
+        }
+       
+        .content-country{
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        }
+        
+       
+        .nav-item__country:hover{
+            background-color:  #FB5B21;
+            color:aliceblue !important;
+            border: none ;
+            padding-right: 5px;
+            padding-left: 10px; 
+            border-width: 10px 4px;
+            border-radius: 10px 0px 10px 43px ;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        }
+
+      
+    </style>
 </head>
 
 <body>
     <!-- Header Start -->
+    
+    <div class=" navbar  navbar-light bg-light p-0  justify-content-end float-end border-start diagonal-border " id="container__country">
+        <ul class="navbar-nav d-flex flex-row  ps-4 pe-3 content-country ">
+            <li class="nav-item pe-4  "><a class="nav-link nav-item__country "  href="./sites/colombia.html">GTA COL</a></li> <!-- Colombia-->
+            <li class="nav-item pe-4 "><a class="nav-link nav-item__country " href="./sites/peru.html"> GTA PERÚ</a></li> <!-- Perú  -->
+            <li class="nav-item pe-4 "><a class="nav-link nav-item__country" href="./sites/chile.html">GTA CHILE</a></li> <!-- Chile -->
+        </ul>
+    </div>
+   
+    <!--Redes sociales -->
+    <div class="">
+
+        
+    </div>
+
+
     <div class="container-fluid bg-dark px-0">
         <div class="row gx-0">
-            <div class="col-lg-3 bg-dark d-none d-lg-block">
-                <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                    <h1 class="m-0 display-4 text-primary text-uppercase">GRUPO GTA</h1>
+            <div class="col-lg-3 bg-dark d-none d-lg-block ">
+                <a href="./index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                    <h1 class="m-0 display-5 text-primary text-uppercase">GRUPO GTA</h1>
                 </a>
             </div>
             <div class="col-lg-9">
                 <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0 px-lg-5">
-                    <a href="index.html" class="navbar-brand d-block d-lg-none">
+                    <a href="./index.html" class="navbar-brand d-block d-lg-none">
                         <h1 class="m-0 display-4 text-primary text-uppercase">GRUPO GTA</h1>
                     </a>
                     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -48,20 +91,22 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="index.html" class="nav-item nav-link active">grupo gta</a>
-                            <a href="./sites/aboutus.html" class="nav-item nav-link">Somos Grupo GTA</a>
-                            <a href="./sites/sustainability.html" class="nav-item nav-link">Sostenibilidad</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sedes</a>
+                            <a href="./index.html" class="nav-item nav-link active">Grupo GTA</a>
+                            <a href="./sites/aboutus.html" class="nav-item nav-link"> Quienes somos</a>
+                            <a href="./sites/services.html" class="nav-item nav-link">Servicios</a>
+                            <div class="nav-item dropdown"  id="nav-countries">
+
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Empresas en latinoamerica</a>
                                 <div class="dropdown-menu rounded-0 m-0">
                                     <a href="./sites/colombia.html" class="dropdown-item">GTA Colombia</a>
                                     <a href="./sites/chile.html" class="dropdown-item">GTA Chile</a>
                                     <a href="./sites/peru.html" class="dropdown-item">GTA Perú</a>
                                 </div>
                             </div>
-                            <a href="./sites/contact.html" class="nav-item nav-link">Contacto</a>
+                            <a href="./sites/sustainability.html" class="nav-item nav-link">Sostenibilidad</a>
+                            <a href="./sites/projectsGrupoGTA.html" class="nav-item nav-link">Proyectos</a>
                         </div>
-                        <a href="./sites/workwithus.html" class="btn btn-primary py-md-3 px-md-5 d-none d-lg-block">Trabaja con nosotros</a>
+                       
                     </div>
                 </nav>
             </div>
@@ -81,8 +126,7 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase">Grupo gta</h5>
                             <h1 class="display-2 text-white text-uppercase mb-md-4">Aceptamos Retos Que Transforman Vidas</h1>
-                            <a href="./sites/workwithus.html" class="btn btn-primary py-md-3 px-md-5 me-3">Trabaja con nosotros</a>
-                            <a href="./sites/contact.html" class="btn btn-light py-md-3 px-md-5">Contáctanos</a>
+                            
                         </div>
                         
                     </div>
@@ -94,8 +138,7 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase">Grupo gta</h5>
                             <h1 class="display-2 text-white text-uppercase mb-md-4">Construyendo un futuro juntos</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Trabaja con nosotros</a>
-                            <a href="" class="btn btn-light py-md-3 px-md-5">Contáctanos</a>
+                           
                         </div>
                       
                     </div>
@@ -166,7 +209,7 @@
                 <div class="bg-light rounded text-center p-5">
                     <!--<i class="flaticon-six-pack display-1 text-primary"></i> -->
                     <img class="text-primary" src="./img/energia-hidroelectrica .png" style="width: 200px; height: 200p;">
-                    <h3 class="text-uppercase my-4">Generación de energía</h3>
+                    <h3 class="text-uppercase my-4">Generación de <br/> energía</h3>
                     <!--<p>Sed amet tempor amet sit kasd sea lorem dolor ipsum elitr dolor </p>-->
                    
                 </div>
@@ -175,7 +218,7 @@
                 <div class="bg-light rounded text-center p-5">
                     <!--<i class="flaticon-barbell display-1 text-primary"></i>-->
                     <img class="text-primary" src="./img/construccion.png" style="width: 200px; height: 200p;">
-                    <h3 class="text-uppercase my-4">Línea de transmisión y subestaciones</h3>
+                    <h3 class="text-uppercase my-4">Líneas de <br/>transmisión </h3>
                     <!--<p>Sed amet tempor amet sit kasd sea lorem dolor ipsum elitr dolor </p>-->
                
                 </div>
@@ -184,7 +227,7 @@
                 <div class="bg-light rounded text-center p-5">
                     <!--<i class="flaticon-bodybuilding display-1 text-primary"></i> -->
                     <img class="text-primary" src="./img/matenimiento.png" style="width: 200px; height: 200p;">
-                    <h3 class="text-uppercase my-4">operación y mantenimiento</h3>
+                    <h3 class="text-uppercase my-4">operación y <br/>mantenimiento</h3>
                     <!--<p>Sed amet tempor amet sit kasd sea lorem dolor ipsum elitr dolor </p>-->
                     
                 </div>
@@ -210,58 +253,74 @@
                 <div id="tab-1" class="tab-pane fade show p-0 active">
                     <div class="row g-5">
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="bg-dark rounded text-center py-5 px-3">
-                              <img src="./img/clients/isa-interchile.png" style="width: 200px; height: 80px;;">
+                            <div class=" rounded text-center py-5 px-3">
+                              <img src="./img/clients/isa-colombia.png" style="max-width: 200px;">
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="bg-dark rounded text-center py-5 px-3">
-                                <img src="./img/clients/isa.png" style="width: 200px; height: 80px;;">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="bg-dark rounded text-center py-5 px-3">
-                                <img src="./img/clients/client-03.jpg">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="bg-dark rounded text-center py-5 px-3">
-                                <img src="./img/clients/epsa.png"  style=" height: 80px;">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="bg-dark rounded text-center py-5 px-3">
-                                <img src="./img/clients/isa-rep.png" style="width: 200px; height: 80px;;">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="bg-dark rounded text-center py-5 px-3">
-                                <img src="./img/clients/grupoenergiabogota.png" style="width: 200px; height: 80px;;">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="bg-dark rounded text-center py-5 px-3">
-                                <img src="./img/clients/edemsa.png"  style="width: 150px; height: 80px;;">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="bg-dark rounded text-center py-5 px-3">
-                                <img src="./img/clients/cobra.png" style="width: 200px; height: 80px;;">
+                            <div class=" rounded text-center py-5 px-3">
+                                <img src="./img/clients/transelca.jpg" style="max-width: 200px;">
                             </div>
                         </div>
                         
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="bg-dark rounded text-center py-5 px-3">
-                                <img src="./img/clients/ConexionEnergia.svg">
+                            <div class=" rounded text-center py-5 px-3">
+                                <img src="./img/clients/isa-peru.jpg" style="max-width: 200px;">
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="bg-dark rounded text-center py-5 px-3">
-                                <img src="./img/clients/isa_transelca.jpg">
+                            <div class=" rounded text-center py-5 px-3">
+                                <img src="./img/clients/isa-chile.jpg" style="max-width: 200px;">
+                            </div>
+                        </div>
+
+                       
+                        
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class=" rounded text-center py-5 px-3">
+                                <img src="./img/clients/grupo-energia-de-bogota.png" style="max-width: 200px;">
                             </div>
                         </div>
                         
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class=" rounded text-center py-5 px-3">
+                                <img src="./img/clients/cobra.jpg" style="max-width: 200px;">
+                            </div>
+                        </div>
+
+                       
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class=" rounded text-center py-5 px-3">
+                                <img src="./img/clients/alupar.png" style="max-width: 200px;">
+                            </div>
+                        </div>
+
+                        <div class=" col-lg-3 col-md-4 col-sm-6 ">
+                            <div class=" rounded text-center py-5 px-3">
+                                <img src="./img/clients/conexion.jpg" style="max-width: 200px;">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class=" rounded text-center py-5 px-3">
+                                <img src="./img/clients/transmisora-colombiana-de-energia.png" style="max-width: 200px;">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class=" rounded text-center py-5 px-3">
+                                <img src="./img/clients/epsa.jpg"  style="max-width: 200px;">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class=" rounded text-center py-5 px-3">
+                                <img src="./img/clients/edemsa.jpg" style="max-width: 200px;">
+                            </div>
+                        </div>
+
                     </div>
                 </div>
               
@@ -339,7 +398,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="team-item position-relative" style="max-width: 450px;  min-width: 300px;">
                     <div class="position-relative overflow-hidden rounded">
-                        <img class="img-fluid w-100" src="./img/team-1.jpg" alt="" style="max-height: 400px; ">
+                        <img class="img-fluid w-100  team-img" src="./img/team-1.jpg" alt="" style="max-height: 400px; ">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
                                 <a class="btn btn-light btn-square rounded-circle mx-1" href="./sites/peru.html"><img src="./img/iconos/peru.png"></a>
@@ -355,7 +414,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="team-item position-relative" style="max-width: 450px; min-width: 300px;">
                     <div class="position-relative overflow-hidden rounded">
-                        <img class="img-fluid w-100" src="./img/team-2.jpg" alt="" style="max-height: 400px; ">
+                        <img class="img-fluid w-100 team-img" src="./img/team-2.jpg" alt="" style="max-height: 400px; ">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
                                 <a class="btn btn-light btn-square rounded-circle mx-1" href="./sites/colombia.html"><img src="./img/iconos/colombia.png"></a>
@@ -371,7 +430,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="team-item position-relative" style="max-width: 450px;  min-width: 300px;">
                     <div class="position-relative overflow-hidden rounded">
-                        <img class="img-fluid w-100" src="./img/team-3.jpg" alt="" style="max-height: 400px; ">
+                        <img class="img-fluid w-100  team-img" src="./img/team-3.jpg" alt="" style="max-height: 400px; ">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
                                 <a class="btn btn-light btn-square rounded-circle mx-1" href="./sites/chile.html"><img src="./img/iconos/chile.png"></a>
@@ -556,8 +615,12 @@
                             <a class="text-secondary mb-2" href="https://www.kawak.com.co/gtaingenieria/pqrs/pqrs_index.php" target="_blank"><i class="bi bi-arrow-right text-primary me-2"></i>PQRS</a>
                             <a class="text-secondary" href="#"></a>
                             <a class="mb-2 text-secondary"><i class="bi bi-arrow-right text-primary me-2"></i>Línea Etíca:</a>
-                            <a href="tel:3507262062" class="phone text-secondary mb-2"><i class="fas fa-phone"></i>  (+ 57) 350 726 2062</a></li> 
+                            <a href="tel:3507262062" class="phone text-secondary mb-2"><i class="fas fa-phone icon-footer"></i>  (+ 57) 350 726 2062</a></li> 
                             <a href="mailto: lineaetica@gtaingenieria.com" class="phone text-secondary mb-2">lineaetica@gtaingenieria.com</a></li> 
+                            <br/>
+                            <a href="mailto: coordinadorcomercial@gtaingenieria.com" ><h5 class="text-light"><i class="bi bi-envelope icon-footer"></i>&nbsp;&nbsp;  Área Comercial</h5></a>
+                       
+                            
                             
                         </div>
                     </div>
@@ -589,7 +652,7 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+   
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
