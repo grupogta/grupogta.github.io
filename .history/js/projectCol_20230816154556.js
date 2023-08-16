@@ -1,7 +1,10 @@
  
 const projectColombia = 
 [
-    [ "En Ejecución", "Mantenimiento y lineas de transmisión todo nivel", "Mantenimiento líneas de transmisión hasta 500KV", "GEB", "-" ],
+    [  "Finalizado", "Construcción de la línea de transmisión a 500 Kv. ",  "Línea San Carlos - Sabanalarga",    "Eléctricas de Medellín Ltda.",  1991 ],
+   
+   
+    [ "En Ejecución", "Mantenimiento y lineas de transmisión todo nivel", "Mantenimiento líneas de transmisión hasta 50KV", "GEB", "-" ],
     [ "En Ejecución", "Construcción y tendidos de líneas", "Proyecto UPME 01-2013 (Sogamoso- Norte-Nueva Esperanza)", "GEB", "-" ],
     [ "En Ejecución",  "Construcción y tendidos de líneas", "Contrato marco ISA (ESOL)", "ISA", "-" ],
     [ "En Ejecución",  "Construcción y tendidos de líneas",  "Proyecto VINES", "TCE", "-" ],
