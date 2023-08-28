@@ -30,13 +30,37 @@
     <link href="../css/style.css" rel="stylesheet">
 
     <style>
-        .content{
-            margin: 0 15%;
+        
+
+        .bg-hero{
+            height: 600px;
+            background-image: url("../img/background/bg-hero1.jpg") ;
+            background-position: top center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
-        .workwithus__grid{
-            max-width: 350px;
+        .sustainability{
+            
+          
+            padding: 30px 10px;
+            font-size: 24px;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
         }
+
+        @media screen and (max-width: 700px){
+            .sustainability{
+                margin: 0;
+                padding-left: 10px;
+                font-size: 16px;
+                justify-content: left;
+                text-align: left;
+            }
+        }
+       
+      
 
         .diagonal-border{
             border: none ; 
@@ -109,12 +133,16 @@
     </div>
     <!-- Header End -->
 
+    <!-- Main-->
+
+
+    <!-- Main End-->
 
     <!-- Hero Start -->
     <div class="container-fluid bg-primary p-5 bg-hero mb-5">
         <div class="row py-5">
             <div class="col-12 text-center">
-                <h1 class="display-2 text-uppercase text-white mb-md-4">trabaja con nosotros</h1>
+                <h1 class="display-2 text-uppercase text-white mb-md-4">Sostenibilidad</h1>
                 <a href="../index.html" class="btn btn-primary py-md-3 px-md-5 me-3">Inicio</a>
                 
             </div>
@@ -122,75 +150,101 @@
     </div>
     <!-- Hero End -->
 
-    <!-- Content-->
-    <div class="container-fluid p-5">
-        <div class="mb-5 text-center">
-            <h5 class="text-primary text-uppercase">por favor, enviar su hoja de vida y especificar el cargo al que aspira.</h5>
-            <h1 class="display-3 text-uppercase mb-0">Trabaje con nosotros</h1>
-        </div>
+    <!-- Main-->
+    <main class=" ">
+        <section class=" container-fluid ">
+         
 
-        
-            <div class="rounded bg-dark ml-5 mr-5 p-5  text-justify content" >
-           
-                <p class="text-secondary mb-5">
-                   
+            <div class= " rounded bg-dark   content text-secondary " >
+                
+                <p class="sustainability    " >Dentro de nuestro compromiso como organización la responsabilidad socioambiental es un pilar conjunto con la 
+                    transformación de los territorios donde operamos, por eso para el 2030 estamos orientados a la creación y 
+                    fortalecimiento del Valor Sostenible en todos nuestros proyectos.
                 </p>
-                <form action="" class="d-flex justify-content-center">
-
-                    <fieldset>
-                        <div class="workwithus__grid">    
-                            <div class="mb-3">
-                                <label for="workwithus__name" class="form-label">Nombres</label>
-                                <input type="text"  id="workwithus__name"   class="form-control "  placeholder="Nombres " required>
-                            </div>
-                            
-                            <div class="mb-3">
-                                <label for="workwithus__lname" class="form-label">Apellidos</label>
-                                <input type="text"  id="workwithus__lname"  class="form-control "   placeholder="Apellidos" required>
-                            </div>
-                            
-                            <div class="mb-3">
-                                <label for="workwithus__phone" class="form-label">Celular</label>
-                                <input type="tel"   id="workwithus__phone"   class="form-control "  placeholder="Celular" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" required>
-                            </div>
-                            
-                            <div class="mb-3">
-                                <label for="workwithus__email" class="form-label">Correo Electrónico</label>
-                                <input type="email" id="workwithus__email"   class="form-control"  placeholder="Correo Electrónico" required>
-                            </div>
-                            
-                            <div class="mb-4">
-                                <label for="workwithus__email" class="form-label">Mensaje</label>
-                                <textarea   id="workwithus__messsage" class="form-control" placeholder="Mensaje"></textarea>
-                            </div>
-
-                            <div class="mb-3">
-                                <input type="file" id="workwithus_file" class="form-control"   accept="application/pdf, .jpg, .docx, .png">
-                                <p>Nota: Los documentos no pueden pesar mas de dos megas (2Mb), se reciben formatos PDF, JPG, DOCX, PNG.</p>
-                            </div>
-                            
-                            
-                            
-
-                            <label class="mb-3" >
-                                Al completar este formulario, acepta que está de acuerdo con la <b><a href="./politicaprivacidad.html">política de confidencialidad y autoriza el tratamiento de sus datos personales </a></b> de Grupo GTA S.A.S
-                            </label>
-                           
-
-                           
-                            <div class="col-auto text-center">
-                                <button type="submit" class="btn btn-primary mb-3" id="jobwithus_buttom">Enviar</button>
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
+                    
+                <p class="sustainability    ">
+                    Por lo cual, alineamos todas nuestras acciones  en un ámbito de
+                    sostenibilidad en nuestras zonas de influencia y grupos de interés. Para ello nos esforzamos en 
+                    impactar de manera positiva los derechos humanos, laborales, la igualdad de género, el medio ambiente 
+                    y la lucha contra la corrupción para ayudar a transformar nuestro medio.
+                </p>
+                
             </div>
-        
-    </div>
-    <!-- End Content-->
+        </section>
+        <!--
+        <section class=" container-fluid p-5">
+            <h2 class=" display-4 text-uppercase">Oficinas</h2>
+            <h5 class=" text-primary text-uppercase mb-5">Actividades sostenibles qué se realizan dentro de las oficinas.</h5>
 
+            <div class="d-flex justify-content-between  flex-wrap px-5 ">
+                <div class="card mb-2 " style="width: 18rem;">
+                    <img src="../img/sustainability/basuras.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Sistema Separación de basuras</h5>
+                    </div>
+                </div>
+                <div class="card mb-2" style="width: 18rem;">
+                    <img src="../img/sustainability/ecoladrillos.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">EcoLadrillos</h5>
+                    </div>
+                </div>
+                <div class="card mb-2" style="width: 18rem;">
+                    <img src="../img/sustainability/buchen-wang-600-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Plan Reducción Consumo de Agua</h5>
+                    </div>
+                </div>
+                <div class="card mb-2" style="width: 18rem;">
+                    <img src="../img/sustainability/kelly-sikkema-600-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Plan Reducción Consumo de Energía</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
 
+        <section class=" container-fluid p-5">
+            <h2 class=" display-4 text-uppercase">Aportamos al cumplimiento de los Objetivos de Desarrollo Sostenible</h2>
+            <h5 class=" text-primary text-uppercase mb-5">Por medio del plan estratégico de sostenibilidad 2023-2030 aportamos a los ODS en cada uno de los objetivos.</h5>
 
+            <div class=" d-flex justify-content-center flex-wrap">
+                <img class="mb-2 me-2"  src="../img/sustainability/1-ods.png" alt="Fin de la pobreza">
+                <img class="mb-2 me-2" src="../img/sustainability/2-ods.png" alt="Hambre cero">
+                <img class="mb-2 me-2" src="../img/sustainability/3-ods.png" alt="Salud y bienestar">
+                <img class="mb-2 me-2" src="../img/sustainability/4-ods.png" alt="Educación de calidad">
+                <img class="mb-2 me-2" src="../img/sustainability/5-ods.png" alt="Igualdad de género">
+                <img class="mb-2 me-2" src="../img/sustainability/6-ods.png" alt="Agua limpia y saneamiento">
+                <img class="mb-2 me-2" src="../img/sustainability/7-ods.png" alt="Energía asequible y no contaminante">
+                <img class="mb-2 me-2" src="../img/sustainability/8-ods.png" alt="Trabajo decente y crecimiento económico">
+                <img class="mb-2 me-2" src="../img/sustainability/9-ods.png" alt="Indrustria, innovación e infraestructura">
+                <img class="mb-2 me-2" src="../img/sustainability/10-ods.png" alt="Reducción de las desigualdades">
+                <img class="mb-2 me-2" src="../img/sustainability/11-ods.png" alt="Ciudades y comunidades sostenibles">
+                <img class="mb-2 me-2" src="../img/sustainability/12-ods.png" alt="Producción y consumo responsable">
+                <img class="mb-2 me-2" src="../img/sustainability/13-ods.png" alt="Acción por el clima">
+                <img class="mb-2 me-2" src="../img/sustainability/14-ods.png" alt="Vida submarina">
+                <img class="mb-2 me-2" src="../img/sustainability/15-ods.png" alt="Vida de ecosistemas terrestres">
+                <img class="mb-2 me-2" src="../img/sustainability/16-ods.png" alt="Paz, justicia e instituciones sólidas">
+                <img class="mb-2 me-2" src="../img/sustainability/17-ods.jpg" alt="Alianzas para lograr los objetivos">
+                <img class="mb-2 me-2" src="../img/sustainability/18-ods.jpg" alt="Objetivos de desarrollo sostenible">
+            </div>
+        </section>
+
+        <section class=" container-fluid p-5">
+            <h2 class=" display-4 text-uppercase">Aliados</h2>
+            <h5 class=" text-primary text-uppercase mb-4">Reciclamos para ayudar a la población infantil con cancer en Colombia y a niños quemados en Perú.</h5>
+
+            <div class=" justify-content-center flex-wrap">
+                <img class="" src="../img/sustainability/Tapas-para-Sanar.jpg" alt="Tapas para sanar a población infantil con cancer en Colombia ">
+                <img class="" src="../img/sustainability/reciclarparaviajar.jpg"  alt="Reciclar para ayudar a niños quemados en el Perú">
+            </div>
+        </section>
+    </main>
+    <!-- End main-->
+
+    
+    
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-secondary px-5 mt-5">
@@ -224,10 +278,8 @@
                        
                         
                         <div class="d-flex mt-4">
-                          
-                            <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-primary btn-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                           
+                            <a class="btn btn-primary btn-square rounded-circle" href="https://instagram.com/grupo.gta?igshid=YmMyMTA2M2Y=" type="_blank"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
@@ -255,6 +307,7 @@
                         <h4 class="text-uppercase text-light mb-4">Enlaces de Interés</h4>
                         <div class="d-flex flex-column justify-content-start">
                             <a class="text-secondary mb-2" href="./aboutus.html"><i class="bi bi-arrow-right text-primary me-2"></i>Acerca de Nosostros</a>
+                            <a class="text-secondary mb-2" href="./sagrilaft.html"><i class="bi bi-arrow-right text-primary me-2"></i>SAGRILAFT</a>
                             <a class="text-secondary mb-2" href="./politicaprivacidad.html"><i class="bi bi-arrow-right text-primary me-2"></i>Política de privacidad</a>
                             <a class="text-secondary mb-2" href="https://www.kawak.com.co/gtaingenieria/pqrs/pqrs_index.php" target="_blank"><i class="bi bi-arrow-right text-primary me-2"></i>PQRS</a>
                             <a class="text-secondary" href="#"></a>
