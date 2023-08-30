@@ -35,7 +35,7 @@ function addDomProjects(project)
     //Cambiar el identificador 
     cardNode.setAttribute("id", "" );
     //Establecer la imagen de un proyecto
-    cardNode.children[0].children[0].setAttribute("src", project[4] );
+    cardNode.children[0].children[0].setAttribute("src", "../img/projects/1.jpg" );
     //Establecer el estado del proyecto
     cardNode.children[0].children[1].innerHTML = project[0];
     //Establecer el objeto del proyecto

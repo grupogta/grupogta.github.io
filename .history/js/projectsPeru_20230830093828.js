@@ -37,7 +37,7 @@ function addDomProjects(project)
     //Establecer el cliente del proyecto
     cardNode.children[1].children[3].innerHTML =  project[3] ;
     //Establecer en donde se realizo el proyecto
-    //cardNode.children[1].children[6].innerHTML = project[4];
+    cardNode.children[1].children[6].innerHTML = project[4];
     
 
     domProjects.appendChild(cardNode);
