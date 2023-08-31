@@ -7,7 +7,7 @@ const projectColombia =
     [ "En Ejecución",  "Construcción y tendidos de líneas",  "Proyecto VINES", "TCE", "../img/projects/proyecto07.jpg"],
     [ "En Ejecución",  "Construcción y tendidos de líneas",  "Proyecto de líneas de transmisión parques eólicos- ABCU", "ISA" , "../img/projects/proyecto08.jpg" ],
     [ "En Ejecución",  "Construcción y tendidos de líneas",  "Contrato Marco ISA- (Varaiante SAVI)", "ISA", "../img/projects/proyecto09.jpg"],
-    ["En Ejecución",  "Reparación de torre Eléctrica ",  "Torre de Emergencia - ESOL", "ISA", "../img/projects/proyectos15.jpg"]
+    ["En Ejecución",  "Reparación de torre electrica ",  "Torre de emergencia", "ISA", "../img/projects/proyectos02.jpg"]
 ];
   
 const orderProjects = projectColombia.reverse();
